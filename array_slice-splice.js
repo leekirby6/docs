@@ -12,7 +12,7 @@ myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * slice(start ? : number, end ? : number): T[];
  */
 
-console.log(myArr.slice(1, 3));
+console.log(myArr.slice(1, 2));
 
 /**
  * Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
@@ -26,5 +26,5 @@ console.log(myArr.slice(1, 3));
 var myArr1 = [];
 myArr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-console.log('splice', myArr1.splice(0, 3, 'ele1', 'ele2','ele3'));
+console.log('splice', myArr1.splice(0, 3, 'ele1', 'ele2', 'ele3'));
 console.log('splice', myArr1);

@@ -1,7 +1,7 @@
 const animals = [{
         "name": "cat",
         "size": "small",
-        "weight": 5
+        "weight": 10
     },
     {
         "name": "dog",
@@ -19,6 +19,9 @@ const animals = [{
         "weight": 5000
     }
 ];
+
+let testfilter = animals.filter(value => value.weight === 10);
+console.log('testfilter', testfilter);
 
 //push phải tạo mảng mới
 let newArr = [];
